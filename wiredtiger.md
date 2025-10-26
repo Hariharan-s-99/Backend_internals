@@ -1,5 +1,3 @@
------
-
 # 🧠 WiredTiger Storage Engine Summary: The Complete Picture
 
 WiredTiger is MongoDB's default storage engine, designed for high concurrency, performance, and compression, built on **B+ Tree** structures and **MVCC**.
@@ -88,8 +86,3 @@ Data moves from volatile memory (RAM) to durable disk storage.
 1.  **Reconciliation:** Dirty in-memory pages are converted to the on-disk format.
 2.  **Checkpoint:** Regularly (default **60 seconds**), a **checkpoint** creates a consistent snapshot, flushing data to the final `.wt` files.
 3.  **Compression:** Blocks (default **4KB**) are compressed (**Snappy** is the default) before being written to disk.
-
-<!-- end list -->
-
-```
-```
