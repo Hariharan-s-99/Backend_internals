@@ -1,0 +1,7 @@
+[project]
+name = "backend-internals"
+version = "0.1.0"
+description = "In-depth backend concepts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
